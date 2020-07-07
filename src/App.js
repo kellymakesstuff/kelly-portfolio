@@ -7,7 +7,7 @@ import Main from './shared/Main'
 
 function App() {
   return <>
-    <div className="main-box">
+    <div className="container-fluid">
       <Header />
       <Main />
       <Footer />

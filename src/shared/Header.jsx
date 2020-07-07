@@ -1,13 +1,14 @@
 import React from 'react'
 import { Link, Route } from 'react-router-dom'
-import HeaderImg from '../images/head_img.png'
+import HeaderImg from '../images/head_img@2x.png'
 
 export default function Header() {
 
   return <>
-    <div className="header-box">
-      <img className="header-img" src={HeaderImg} alt="Kelly Bergin" />
-    </div>
+    <div className="row">
+      <div className="col-xl-9">
+        <img className="header-img" src={HeaderImg} alt="Kelly Bergin" />
+      </div></div>
 
     <div className="menu-box">
       <Link to="/" exact>
