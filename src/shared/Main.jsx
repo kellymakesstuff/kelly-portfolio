@@ -9,8 +9,6 @@ export default function Main() {
 
   return <>
 
-    <h1>HI I'M HERE</h1>
-
     <Route path="/" exact>
       <Home />
     </Route>

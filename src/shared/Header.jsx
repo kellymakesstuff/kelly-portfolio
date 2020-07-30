@@ -6,11 +6,11 @@ export default function Header() {
 
   return <>
     <div className="row">
-      <div className="col-xl-9">
+      <div className="col-12 header-img">
         <img className="header-img" src={HeaderImg} alt="Kelly Bergin" />
       </div></div>
 
-    <div className="menu-box">
+    <div className="menu-box col-12">
       <Link to="/" exact>
         <h3>Home</h3>
       </Link>

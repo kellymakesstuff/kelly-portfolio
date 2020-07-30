@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 .row {
+ display:flex;
  align-items: center;
 }
 
@@ -64,6 +65,7 @@ p {
 
 .black-box {
   background-color: solid black;
+
 }
 
 .main-box {
@@ -81,3 +83,25 @@ a:hover {
   color: #D3EEE1;
 
 }
+
+
+.black-box{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.container-fluid {
+  display: flex;
+  height: 99%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home-msg {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-items: space-around;
+} 
