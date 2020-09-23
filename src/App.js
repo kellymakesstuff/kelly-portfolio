@@ -1,21 +1,19 @@
 import React, { useState } from 'react';
-import { Link, Route, withRouter } from 'react-router-dom'
+import { Link, Route, withRouter } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './App.css';
-import Header from './shared/Header'
-import Footer from './shared/Footer'
-import Home from './screens/Home'
-import Main from './shared/Main'
-import Projects from './screens/Projects'
-
+import Header from './shared/Header';
+import Footer from './shared/Footer';
+import Home from './screens/Home';
+import Main from './shared/Main';
+import Projects from './screens/Projects';
+AOS.init();
 
 
 function App() {
 
   return <>
-
-    <script>
-      AOS.init();
-    </script>
 
     <div className="container-fluid">
       <Header />

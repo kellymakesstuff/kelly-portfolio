@@ -3,7 +3,9 @@
 
 .row {
  display:flex;
- align-items: center;
+ flex-flow: row;
+justify-content: center;
+padding: 3%;
 }
 
 
@@ -101,3 +103,32 @@ a:hover {
   color: #D3EEE1;
 }
 
+.circle-one {
+  display: flex;
+  height: 10rem;
+  width: 10rem;
+  background-color: rgba(0,0,250, .1);
+  border-radius: 50%;
+  position: relative;
+  left: 1%
+}
+
+.circle-two {
+  display: flex;
+  height: 10rem;
+  width: 10rem;
+  background-color: rgba(0,0,250, .1);
+  border-radius: 50%;
+
+}
+
+.circle-three {
+  display: flex;
+  height: 10rem;
+  width: 10rem;
+  background-color: rgba(0,0,250, .1);
+  border-radius: 50%;
+  position: relative;
+  right: 1%;
+
+}
