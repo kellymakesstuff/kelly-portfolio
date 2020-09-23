@@ -12,7 +12,7 @@ let projectData = [
   {
     project: "SPORK",
     img: sporkImg,
-    deployed: "http://spork.surge.sh",
+    deployed: "http://spork-app.surge.sh",
     github: "https://github.com/kellymakesstuff/spork"
   },
   {

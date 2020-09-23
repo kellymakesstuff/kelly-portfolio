@@ -1,26 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url("https://unpkg.com/aos@2.3.1/dist/aos.css");
 
 .row {
  display:flex;
  align-items: center;
 }
 
-.footer-bar {
-  display: flex;
-  background-color: #D3EEE1;
-  width: 50%;
-  height: 7px;
- justify-content: center;
- justify-self: flex-end;
-}
 
 .footer-container{
-  display: flex;
-  flex-flow: row;
-  align-items: baseline center;
-  justify-content: center;
-  margin: 15% 0% 0% 0%;
+  background-color: #D3EEE1;
+height: 10%;
+width: auto;
 }
 
 .header-img {
