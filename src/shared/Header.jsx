@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link, Route } from 'react-router-dom'
+import { Link, Route, withRouter } from 'react-router-dom'
 import HeaderImg from '../images/head_img@2x.png'
 
-export default function Header({ currentHeader }, { setCurrentHeader }) {
+function Header() {
 
 
   return <>
@@ -18,3 +18,4 @@ export default function Header({ currentHeader }, { setCurrentHeader }) {
 
   </>
 }
+export default withRouter(Header)

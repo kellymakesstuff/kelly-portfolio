@@ -1,6 +1,7 @@
 import React from 'react'
+import { withRouter } from 'react-router-dom'
 
-export default function singleProject({ project }) {
+function SingleProject({ project }) {
 
 
   return <>
@@ -16,3 +17,5 @@ export default function singleProject({ project }) {
     </div>
   </>
 }
+
+export default withRouter(SingleProject)

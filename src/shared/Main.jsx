@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, Route } from 'react-router-dom'
+import { Link, Route, withRouter } from 'react-router-dom'
 import Home from '../screens/Home'
 import Projects from '../screens/Projects'
 import Resume from '../screens/Resume'
@@ -8,12 +8,14 @@ import Header from '../shared/Header'
 import Nav from '../shared/Nav'
 import Screens from '../screens/Screens'
 
-export default function Main({ currentHeader }, { setCurrentHeader }) {
+function Main() {
 
   return <>
     <Nav />
-    <Screens />
 
+    <Screens />
   </>
 
 }
+
+export default withRouter(Main)

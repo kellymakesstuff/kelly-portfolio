@@ -1,7 +1,8 @@
 import React from 'react'
+import { withRouter } from 'react-router-dom'
 import ResumeImg from '../images/resume.png'
 
-export default function Resume() {
+function Resume() {
 
   return <>
     <h1>Click Resume to Download (PDF)</h1>
@@ -11,3 +12,5 @@ export default function Resume() {
   </>
 
 }
+
+export default withRouter(Resume)

@@ -1,18 +1,13 @@
 import React from 'react'
-import { Link, Route } from 'react-router-dom'
+import { Link, Route, withRouter } from 'react-router-dom'
+import Main from '../shared/Main'
 
 
-export default function Home({ currentHeader }, { setCurrentHeader }) {
-
-  // let handleHeader = () => {
-  //   currentHeader.comeIn = true
-  //   console.log(currentHeader)
-  // }
-
+function Home() {
 
   return <>
 
-    {/* <div className="home-msg col-8">
+    <div className="home-msg col-8">
       <h1>Hi, I'm Kelly!</h1>
       <br />
       <h3>I am a true New Yorker who thrives in dynamic spaces.
@@ -23,10 +18,14 @@ export default function Home({ currentHeader }, { setCurrentHeader }) {
    only 20% of my Excel jokes are un-punny.</h3>
       <br />
 
-      <Link to="/projects" onClick={() => handleHeader()}>
+
+      <Link to="/main">
         <h2>COME ON IN!</h2>
       </Link>
-    </div> */}
+    </div>
+
   </>
 
 }
+
+export default withRouter(Home)

@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import projectData from './projectData'
 import SingleProject from '../shared/SingleProject'
+import { withRouter } from 'react-router-dom'
 
-export default function Projects() {
+function Projects() {
   let [projects, setProjects] = useState(projectData)
 
   console.log(projectData)
@@ -19,3 +20,5 @@ export default function Projects() {
   </>
 
 }
+
+export default withRouter(Projects)

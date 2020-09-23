@@ -1,24 +1,26 @@
 import React from 'react'
-import { Link, Route } from 'react-router-dom'
+import { Link, Route, withRouter } from 'react-router-dom'
 
-export default function Nav() {
+function Nav() {
   return (
     <div>
 
       <div className="menu-box col-12">
 
-        <Link to="/projects">
+        <Link to="/main/projects">
           <h3>Projects</h3>
         </Link>
 
-        <Link to="/resume">
+        <Link to="/main/resume">
           <h3>Resume</h3>
         </Link>
 
-        <Link to="/aboutme">
+        <Link to="/main/aboutme">
           <h3>About Me</h3>
         </Link>
       </div>
     </div>
   )
 }
+
+export default withRouter(Nav)

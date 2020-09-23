@@ -1,9 +1,12 @@
 import React from 'react'
+import { withRouter } from 'react-router-dom'
 
 
-export default function Aboutme() {
+function Aboutme() {
   return <>
     <h1>About me</h1>
   </>
 
 }
+
+export default withRouter(Aboutme)

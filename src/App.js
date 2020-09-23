@@ -1,27 +1,15 @@
 import React, { useState } from 'react';
-import { Link, Route } from 'react-router-dom'
+import { Link, Route, withRouter } from 'react-router-dom'
 import './App.css';
 import Header from './shared/Header'
 import Footer from './shared/Footer'
+import Home from './screens/Home'
 import Main from './shared/Main'
+import Projects from './screens/Projects'
 
 
 
 function App() {
-
-  let [currentHeader, setCurrentHeader] = useState({
-    home: true,
-    comeIn: null,
-    projects: null,
-    resume: null,
-    about: null
-  })
-
-  let handleHeader = () => {
-    let divDisplay = document.getElementsByClassName("home-msg")
-    currentHeader.comeIn = true
-    console.log(currentHeader)
-  }
 
   return <>
 
@@ -32,34 +20,31 @@ function App() {
     <div className="container-fluid">
       <Header />
 
-      {/* <div className="home-msg col-8" data-aos="slide-up">
-        <h1>Hi, I'm Kelly!</h1>
-        <br />
-        <h3>I am a true New Yorker who thrives in dynamic spaces.
-        People, the teams they compose, and the things they create
-        are my life-blood. I am a total software automation nerd,
-        and love creating streamlined workflows, integrating
-        systems as naturally as possible. I've been told that
-   only 20% of my Excel jokes are un-punny.</h3>
-        <br />
+      <Route path="/" exact>
+        <Home />
+      </Route>
 
-        <Link to="/main">
-          <h2>COME ON IN!</h2>
-        </Link>
-      </div> */}
-
-
-      <Main />
-      {/* <Route path="/main">
+      <Route path="/main">
         <Main />
-      </Route> */}
-
-
+      </Route>
 
     </div>
+
+    {/* 
+    <Route path="/projects">
+      <Projects />
+    </Route> */}
+    {/* 
+    <Route path="/resume">
+      <Resume />
+    </Route>
+
+    <Route path="/aboutme">
+      <Aboutme />
+    </Route> */}
 
     <Footer />
   </>
 }
 
-export default App;
+export default withRouter(App);
