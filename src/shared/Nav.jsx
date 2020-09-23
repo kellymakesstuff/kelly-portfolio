@@ -60,25 +60,24 @@ function Nav() {
     }
   }
 
-  return (
-    <div>
+  return <>
 
-      <div className="menu-box col-12">
+    <div className="col-12 menu-box">
 
-        <Link to="/main/projects" onClick={() => clickProjects()}>
-          {rendProjects()}
-        </Link>
+      <Link to="/main/projects" onClick={() => clickProjects()}>
+        {rendProjects()}
+      </Link>
 
-        <Link to="/main/resume" onClick={() => clickResume()}>
-          {rendResume()}
-        </Link>
+      <Link to="/main/resume" onClick={() => clickResume()}>
+        {rendResume()}
+      </Link>
 
-        <Link to="/main/aboutme" onClick={() => clickAbout()}>
-          {rendAbout()}
-        </Link>
-      </div>
+      <Link to="/main/aboutme" onClick={() => clickAbout()}>
+        {rendAbout()}
+      </Link>
     </div>
-  )
+  </>
+
 }
 
 export default withRouter(Nav)
