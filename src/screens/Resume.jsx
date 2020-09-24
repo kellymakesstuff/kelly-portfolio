@@ -8,7 +8,7 @@ function Resume() {
 
 
   return <>
-    <div className="col-10">
+    <div className="col-10 resume-box">
       <h3 className="resume-head">Tech Stack</h3>
       <div className="tech-stack-box">
         <i class="devicon-javascript-plain colored"></i>
@@ -34,6 +34,10 @@ function Resume() {
       <div className="tech-experience-box">
         {resumeItems.map(resumeItems => <SingleResume resumeItems={resumeItems} />)}
       </div>
+    </div>
+
+    <div>
+
     </div>
 
 
