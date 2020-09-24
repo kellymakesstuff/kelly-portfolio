@@ -82,11 +82,8 @@ a:hover {
 }
 
 
-
 .proj-img {
 margin: 1%;
-max-width: 100%;
-max-height: 100%;
 border: 0.25rem solid rgba(211,225,223, .3);
 }
 
