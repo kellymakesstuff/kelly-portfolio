@@ -9,6 +9,7 @@ function Resume() {
 
   return <>
     <div className="col-10 resume-box">
+      <a className="resume-link" target="_blank" href="https://drive.google.com/file/d/1ZiCI9Xgk1M4bobjqEC_JqJg-GApNoqbb/view?usp=sharing"><h4 className="font-italic" className="resume-head">Click to Download (PDF)</h4></a>
       <h3 className="resume-head">Tech Stack</h3>
       <div className="tech-stack-box">
         <i class="devicon-javascript-plain colored"></i>

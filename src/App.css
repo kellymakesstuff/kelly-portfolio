@@ -171,6 +171,12 @@ i {
   margin: .4rem;
 }
 
+.resume-link{
+  text-align: center;
+  margin: 0px;
+  font-style: italic;
+  color: rgb(171, 183, 181)
+}
 .resume-box{
 display: flex;
 flex-flow: column;
