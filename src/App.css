@@ -160,9 +160,39 @@ a:hover {
   z-index: 3;
 }
 
+.tech-stack-box {
+display: flex;
+flex-flow: row wrap;
+justify-content: space-evenly;
+font-size: 4rem;
+}
+
+i {
+  margin: .4rem;
+}
+
+.tech-experience-box{
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+}
+
+.single-resume-item{
+width: 325px;
+margin: 1rem;
+}
+
+.resume-head {
+margin: .5rem;
+}
+
 
 @media only screen and (max-width: 700px) {
 
+  .tech-experience-box{
+    display: flex;
+    flex-flow: column wrap;
+    }
 
   .circle-one {
     display: flex;
@@ -386,5 +416,6 @@ a:hover {
     .black-box {
       padding-bottom: 4rem;
     }
+
 
 }

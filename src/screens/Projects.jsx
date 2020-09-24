@@ -15,7 +15,6 @@ function Projects() {
       {projects.map(project => <SingleProject project={project} />)}
     </div>
 
-    <h3></h3>
   </>
 
 }
