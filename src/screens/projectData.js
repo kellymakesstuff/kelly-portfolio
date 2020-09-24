@@ -21,5 +21,12 @@ let projectData = [
     deployed: "http://tarou.netlify.app",
     github: "https://github.com/kellymakesstuff/tarou-tarot-card-reader"
   },
+  {
+    project: "Appear",
+    img: appearImg,
+    deployed: "http://appear.surge.sh",
+    github: "https://github.com/kellymakesstuff/appear-rsvp"
+  },
+
 ]
 export default projectData

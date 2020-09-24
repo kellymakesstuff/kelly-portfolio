@@ -40,7 +40,7 @@ function Nav() {
     if (headerShift.projects === true) {
       return <h1 className="sect-title" >Projects</h1>
     } else {
-      return <h3>Projects</h3>
+      return <h2>Projects</h2>
     }
   }
 
@@ -48,7 +48,7 @@ function Nav() {
     if (headerShift.resume === true) {
       return <h1 className="sect-title" >Resume</h1>
     } else {
-      return <h3>Resume</h3>
+      return <h2>Resume</h2>
     }
   }
 
@@ -56,7 +56,7 @@ function Nav() {
     if (headerShift.about === true) {
       return <h1 className="sect-title" >About Me</h1>
     } else {
-      return <h3>About Me</h3>
+      return <h2>About Me</h2>
     }
   }
 

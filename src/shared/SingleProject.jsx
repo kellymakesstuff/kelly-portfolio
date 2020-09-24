@@ -3,9 +3,23 @@ import { withRouter } from 'react-router-dom'
 
 function SingleProject({ project }) {
 
-
   return <>
-    <div>
+    <img className="proj-img" src={project.img} alt={project.project} />
+
+
+
+
+
+  </>
+}
+
+
+
+export default withRouter(SingleProject)
+
+
+
+{/* <div>
       <div className="card col-5">
         <h4 className="card-title">{project.project}</h4>
         <img className="card-img-top col-12" src={project.img} alt={project.project} />
@@ -14,8 +28,4 @@ function SingleProject({ project }) {
         </div>
       </div>
 
-    </div>
-  </>
-}
-
-export default withRouter(SingleProject)
+    </div> */}

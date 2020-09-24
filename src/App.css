@@ -5,7 +5,7 @@
  display:flex;
  flex-flow: row;
 justify-content: center;
-padding: 3%;
+padding: 2%;
 }
 
 
@@ -48,7 +48,8 @@ h1 {
 
 h3 {
   font-family: 'Raleway', sans-serif;
-  font-weight: 300;
+  margin: 4rem;
+  text-align: center;
 }
 
 p {
@@ -58,7 +59,9 @@ p {
 }
 
 .black-box {
-  background-color: solid black;
+display: flex;
+flex-flow: row wrap;
+  width: 90%;
 
 }
 
@@ -80,9 +83,17 @@ a:hover {
 
 
 .black-box{
+  padding: .05%;
   display: flex;
-  flex-flow: row;
-  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.proj-img {
+width: 30rem;
+height: auto;
+margin: .5rem;
+border: 0.25rem solid rgba(211,225,223, .3);
 }
 
 .container-fluid {
@@ -97,7 +108,8 @@ a:hover {
   display: flex;
   flex-flow: column;
   align-items: center;
-  justify-items: space-around;
+  align-content: space-between;
+  justify-content: space-between;
 } 
 
 .sect-title {
@@ -142,7 +154,7 @@ a:hover {
   align-self: center;
   position: absolute;
   z-index: 1;
-display: block;
+  display: block;
 }
 
 .title-text {
