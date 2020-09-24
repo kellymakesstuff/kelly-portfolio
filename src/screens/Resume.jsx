@@ -8,6 +8,7 @@ import france from "../images/france.png"
 import japan from "../images/japan.png"
 import korea from "../images/korea.png"
 import spain from "../images/spain.png"
+import uk from "../images/uk.png"
 
 
 
@@ -56,12 +57,13 @@ function Resume() {
       <div className="tech-stack-box">
 
 
-        <img src={japan} alt="Japanese"></img>
-        <img src={france} alt="French"></img>
-        <img src={china} alt="Chinese (Mandarin)"></img>
-        <img src={korea} alt="Korean"></img>
-        <img src={spain} alt="Spanish"></img>
-        <img src={egypt} alt="Egyptian Arabic"></img>
+        <img className="size-64" src={uk} alt="English"></img>
+        <img className="size-80" src={japan} alt="Japanese"></img>
+        <img className="size-64" src={france} alt="French"></img>
+        <img className="size-80" src={china} alt="Chinese (Mandarin)"></img>
+        <img className="size-80" src={korea} alt="Korean"></img>
+        <img className="size-64" src={spain} alt="Spanish"></img>
+        <img className="size-64" src={egypt} alt="Egyptian Arabic"></img>
       </div>
     </div>
   </>
