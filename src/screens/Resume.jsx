@@ -2,6 +2,14 @@ import React, { useState } from 'react'
 import { withRouter } from 'react-router-dom'
 import resumeData from './resumeData'
 import SingleResume from '../shared/SingleResume'
+import china from "../images/china.png"
+import egypt from "../images/egypt.png"
+import france from "../images/france.png"
+import japan from "../images/japan.png"
+import korea from "../images/korea.png"
+import spain from "../images/spain.png"
+
+
 
 function Resume() {
   let [resumeItems, setResumeItems] = useState(resumeData)
@@ -35,14 +43,27 @@ function Resume() {
       <div className="tech-experience-box">
         {resumeItems.map(resumeItems => <SingleResume resumeItems={resumeItems} />)}
       </div>
+
+
+      <h3 className="resume-head">Education</h3>
+      <div className="education-box">
+        <h4><span className="sect-title">General Assembly | </span><span className="font-italic">Software Engineering Immersive</span></h4>
+        <h4><span className="sect-title">Fairleigh Dickinson University | </span><span className="font-italic">MFA Writing (Fiction, Japanese Literary Translation)</span></h4>
+        <h4><span className="sect-title">Binghamton University | </span><span className="font-italic">BA Linguistics, English (Dual Degree)</span></h4>
+      </div>
+
+      <h3 className="resume-head">Languages</h3>
+      <div className="tech-stack-box">
+
+
+        <img src={japan} alt="Japanese"></img>
+        <img src={france} alt="French"></img>
+        <img src={china} alt="Chinese (Mandarin)"></img>
+        <img src={korea} alt="Korean"></img>
+        <img src={spain} alt="Spanish"></img>
+        <img src={egypt} alt="Egyptian Arabic"></img>
+      </div>
     </div>
-
-    <div>
-
-    </div>
-
-
-
   </>
 
 }
