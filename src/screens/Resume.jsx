@@ -9,6 +9,7 @@ function Resume() {
     <a target="new" href="https://drive.google.com/file/d/10wuElptbwNenNRdg_eXywHJTjGFvVZ77/view?usp=sharing">
       {/* <img src={ResumeImg} alt="Kelly's Resume:" /> */}
     </a>
+
   </>
 
 }
