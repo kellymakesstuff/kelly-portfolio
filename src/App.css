@@ -175,3 +175,199 @@ border: 0.25rem solid rgba(211,225,223, .3);
   text-align: center;
   z-index: 3;
 }
+
+
+@media only screen and (max-width: 646px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .circle-one {
+    display: flex;
+    height: 10rem;
+    width: 10rem;
+    background-color: rgba(211,225,223, .3);
+    border-radius: 50%;
+    position: relative;
+    left: 1%;
+    z-index: -3;
+  }
+  
+  .circle-two {
+    display: flex;
+    height: 10rem;
+    width: 10rem;
+    background-color: rgba(211,238,225, .3);
+    border-radius: 50%;
+    z-index: -2;
+  
+  }
+  
+  .circle-three {
+    display: flex;
+    height: 10rem;
+    width: 10rem;
+    background-color: rgba(211, 16, 30, 0.3);
+    border-radius: 50%;
+    position: relative;
+    right: 1%;
+    z-index: -1;
+  
+  }
+  
+  .name-overlay{
+    display: flex;
+    align-self: center;
+    position: absolute;
+    z-index: 1;
+    display: block;
+  }
+  
+  .title-text {
+    font-size: 400%;
+    padding: 0px;
+    margin: 0px;
+    z-index: 2;
+  }
+  
+  .under-text {
+    font-size: 140%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    z-index: 3;
+  }
+
+  
+
+}
+
+@media only screen and (max-width: 523px) {
+  body {
+    background-color: lightgray;
+  }
+
+  .circle-one {
+    display: flex;
+    height: 8rem;
+    width: 8rem;
+    background-color: rgba(211,225,223, .3);
+    border-radius: 50%;
+    position: relative;
+    left: 1%;
+    z-index: -3;
+  }
+  
+  .circle-two {
+    display: flex;
+    height: 8rem;
+    width: 8rem;
+    background-color: rgba(211,238,225, .3);
+    border-radius: 50%;
+    z-index: -2;
+  
+  }
+  
+  .circle-three {
+    display: flex;
+    height: 8rem;
+    width: 8rem;
+    background-color: rgba(211, 16, 30, 0.3);
+    border-radius: 50%;
+    position: relative;
+    right: 1%;
+    z-index: -1;
+  
+  }
+  
+  .name-overlay{
+    display: flex;
+    align-self: center;
+    position: absolute;
+    z-index: 1;
+    display: block;
+  }
+  
+  .title-text {
+    font-size: 300%;
+    padding: 0px;
+    margin: 0px;
+    z-index: 2;
+  }
+  
+  .under-text {
+    font-size: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    z-index: 3;
+  }
+
+  
+
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: lightpink;
+  }
+
+  .circle-one {
+    display: flex;
+    height: 7rem;
+    width: 7rem;
+    background-color: rgba(211,225,223, .3);
+    border-radius: 50%;
+    position: relative;
+    left: 1%;
+    z-index: -3;
+  }
+  
+  .circle-two {
+    display: flex;
+    height: 7rem;
+    width: 7rem;
+    background-color: rgba(211,238,225, .3);
+    border-radius: 50%;
+    z-index: -2;
+  
+  }
+  
+  .circle-three {
+    display: flex;
+    height: 7rem;
+    width: 7rem;
+    background-color: rgba(211, 16, 30, 0.3);
+    border-radius: 50%;
+    position: relative;
+    right: 1%;
+    z-index: -1;
+  
+  }
+  
+  .name-overlay{
+    display: flex;
+    align-self: center;
+    position: absolute;
+    z-index: 1;
+    display: block;
+  }
+  
+  .title-text {
+    font-size: 200%;
+    padding: 0px;
+    margin: 0px;
+    z-index: 2;
+  }
+  
+  .under-text {
+    font-size: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    z-index: 3;
+  }
+
+  
+
+}
