@@ -4,7 +4,7 @@ import { withRouter } from 'react-router-dom'
 function SingleProject({ project }) {
 
   return <>
-    <img className="proj-img" src={project.img} alt={project.project} />
+    <img className="proj-img img-fluid" src={project.img} alt={project.project} />
 
 
 

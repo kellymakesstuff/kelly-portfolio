@@ -63,6 +63,9 @@ p {
 display: flex;
 flex-flow: row wrap;
 width: 90%;
+padding: .05%;
+margin-bottom: 0px;
+justify-content: space-evenly;
 }
 
 .main-box {
@@ -82,16 +85,10 @@ a:hover {
 }
 
 
-.black-box{
-  padding: .05%;
-  margin-bottom: 0px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-}
+
 
 .proj-img {
-width: 30rem;
+max-width: 100%;
 height: auto;
 margin: .25rem;
 border: 0.25rem solid rgba(211,225,223, .3);
@@ -244,10 +241,6 @@ border: 0.25rem solid rgba(211,225,223, .3);
   }
 
 
-  img {
-    height: 50%;
-    width: 50%;
-  }
 }
 
 @media only screen and (max-width: 550px) {
@@ -322,10 +315,7 @@ border: 0.25rem solid rgba(211,225,223, .3);
     padding-bottom: 7rem;
   }
 
-  img {
-    height: 50%;
-    width: 50%;
-  }
+
 }
 
 @media only screen and (max-width: 410px) {
@@ -405,8 +395,4 @@ border: 0.25rem solid rgba(211,225,223, .3);
       padding-bottom: 4rem;
     }
 
-    img {
-      height: 50%;
-      width: 50%;
-    }
 }
