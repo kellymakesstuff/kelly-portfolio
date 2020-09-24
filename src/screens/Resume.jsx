@@ -1,6 +1,5 @@
 import React from 'react'
 import { withRouter } from 'react-router-dom'
-import ResumeImg from '../images/resume.png'
 
 function Resume() {
 

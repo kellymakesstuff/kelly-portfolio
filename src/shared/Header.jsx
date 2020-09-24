@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link, Route, withRouter } from 'react-router-dom'
-import HeaderImg from '../images/head_img@2x.png'
 
 function Header() {
 
