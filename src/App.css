@@ -243,8 +243,10 @@ border: 0.25rem solid rgba(211,225,223, .3);
     padding: 4rem;
   }
 
-  .home-msg-text {
-    margin: 3rem;
+
+  img {
+    height: 50%;
+    width: 50%;
   }
 }
 
@@ -311,10 +313,6 @@ border: 0.25rem solid rgba(211,225,223, .3);
     padding: 4rem;
   }
 
-  .home-msg-text {
-    margin: 2rem;
-  }
-
   h1, h2, h3, a, p {
     font-size: 130%;
   }
@@ -322,6 +320,11 @@ border: 0.25rem solid rgba(211,225,223, .3);
   .black-box {
     margin: 7rem;
     padding-bottom: 7rem;
+  }
+
+  img {
+    height: 50%;
+    width: 50%;
   }
 }
 
@@ -400,5 +403,10 @@ border: 0.25rem solid rgba(211,225,223, .3);
     .black-box {
       margin: 1rem;
       padding-bottom: 4rem;
+    }
+
+    img {
+      height: 50%;
+      width: 50%;
     }
 }
