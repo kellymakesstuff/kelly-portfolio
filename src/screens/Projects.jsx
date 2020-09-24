@@ -10,7 +10,7 @@ function Projects() {
   console.log(projects)
   return <>
 
-    <div className="black-box col-9">
+    <div className="black-box col-8">
 
       {projects.map(project => <SingleProject project={project} />)}
     </div>

@@ -10,7 +10,7 @@ function Home() {
     <div className="home-msg col-10">
       <h1>Hi, I'm Kelly!</h1>
       <br /><br /><br /><br />
-      <h3>I am a true New Yorker who thrives in dynamic spaces.
+      <h3 className="home-msg-text">I am a true New Yorker who thrives in dynamic spaces.
       People, the teams they compose, and the things they create
       are my life-blood. I am a total software automation nerd,
       and love creating streamlined workflows, integrating
