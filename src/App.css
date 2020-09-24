@@ -13,6 +13,8 @@ padding: 2%;
   background-color: #D3EEE1;
 height: 10%;
 width: auto;
+padding-top: 3rem;
+margin-top: 3rem;
 }
 
 .header-img {
@@ -60,8 +62,7 @@ p {
 .black-box {
 display: flex;
 flex-flow: row wrap;
-  width: 90%;
-
+width: 90%;
 }
 
 .main-box {
@@ -177,7 +178,7 @@ border: 0.25rem solid rgba(211,225,223, .3);
 }
 
 
-@media only screen and (max-width: 646px) {
+@media only screen and (max-width: 700px) {
   body {
     background-color: lightblue;
   }
@@ -239,10 +240,12 @@ border: 0.25rem solid rgba(211,225,223, .3);
   }
 
   
-
+  .home-msg-text {
+    margin: 3rem;
+  }
 }
 
-@media only screen and (max-width: 523px) {
+@media only screen and (max-width: 550px) {
   body {
     background-color: lightgray;
   }
@@ -296,18 +299,28 @@ border: 0.25rem solid rgba(211,225,223, .3);
   }
   
   .under-text {
-    font-size: 100%;
+    font-size: 150%;
     padding: 0px;
     margin: 0px;
     text-align: center;
     z-index: 3;
   }
 
-  
+  .home-msg-text {
+    margin: 2rem;
+  }
 
+  h1, h2, h3, a, p {
+    font-size: 130%;
+  }
+
+  .black-box {
+    margin: 7rem;
+    padding-bottom: 7rem;
+  }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 410px) {
   body {
     background-color: lightpink;
   }
@@ -361,7 +374,7 @@ border: 0.25rem solid rgba(211,225,223, .3);
   }
   
   .under-text {
-    font-size: 100%;
+    font-size: 130%;
     padding: 0px;
     margin: 0px;
     text-align: center;
@@ -369,5 +382,24 @@ border: 0.25rem solid rgba(211,225,223, .3);
   }
 
   
+  .proj-img {
+    width: 45rem;
+    height: auto;
+    margin: .25rem;
+    border: 0.25rem solid rgba(211,225,223, .3);
+    }
 
+    h1, h2, h3, a, p {
+      font-size: 120%;
+    }
+
+    
+    .home-msg-text {
+      margin: 1rem;
+    }
+
+    .black-box {
+      margin: 1rem;
+      padding-bottom: 4rem;
+    }
 }
