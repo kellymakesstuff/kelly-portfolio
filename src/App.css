@@ -179,9 +179,7 @@ border: 0.25rem solid rgba(211,225,223, .3);
 
 
 @media only screen and (max-width: 700px) {
-  body {
-    background-color: lightblue;
-  }
+
 
   .circle-one {
     display: flex;
@@ -246,9 +244,6 @@ border: 0.25rem solid rgba(211,225,223, .3);
 }
 
 @media only screen and (max-width: 550px) {
-  body {
-    background-color: lightgray;
-  }
 
   .circle-one {
     display: flex;
@@ -321,9 +316,6 @@ border: 0.25rem solid rgba(211,225,223, .3);
 }
 
 @media only screen and (max-width: 410px) {
-  body {
-    background-color: lightpink;
-  }
 
   .circle-one {
     display: flex;
