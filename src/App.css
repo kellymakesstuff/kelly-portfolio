@@ -62,9 +62,6 @@ p {
 .black-box {
 display: flex;
 flex-flow: row wrap;
-width: 90%;
-padding: .05%;
-margin-bottom: 0px;
 justify-content: space-evenly;
 }
 
@@ -86,11 +83,10 @@ a:hover {
 
 
 
-
 .proj-img {
+margin: 1%;
 max-width: 100%;
 height: auto;
-margin: .25rem;
 border: 0.25rem solid rgba(211,225,223, .3);
 }
 
@@ -311,8 +307,7 @@ border: 0.25rem solid rgba(211,225,223, .3);
   }
 
   .black-box {
-    margin: 7rem;
-    padding-bottom: 7rem;
+    padding-bottom: 3rem;
   }
 
 
@@ -391,7 +386,6 @@ border: 0.25rem solid rgba(211,225,223, .3);
     }
 
     .black-box {
-      margin: 1rem;
       padding-bottom: 4rem;
     }
 
