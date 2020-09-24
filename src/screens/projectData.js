@@ -1,6 +1,7 @@
 import appearImg from "../images/appear.png"
 import sporkImg from "../images/spork.png"
 import tarouImg from "../images/tarou.png"
+import skipImg from "../images/skip.png"
 
 let projectData = [
   {
@@ -22,10 +23,10 @@ let projectData = [
     github: "https://github.com/kellymakesstuff/tarou-tarot-card-reader"
   },
   {
-    project: "Appear",
-    img: appearImg,
-    deployed: "http://appear.surge.sh",
-    github: "https://github.com/kellymakesstuff/appear-rsvp"
+    project: "The SKIP Chinese Character Dictionary",
+    img: skipImg,
+    deployed: "http://skip-chinese.surge.sh",
+    github: "https://github.com/kellymakesstuff/skip-chinese-dictionary"
   },
 
 ]
