@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
+label{
+  display: none;
+}
+
 .row {
  display:flex;
  flex-flow: row;
@@ -214,6 +218,50 @@ flex-flow: column;
 .resume-head {
 margin: 1rem;
 }
+
+.contact-box{
+text-align: center;
+margin-top: 3%;
+}
+  
+.form-box{
+width: 100%;
+text-align: center;
+padding: 5rem;
+}
+
+.form-items{
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+input{
+  text-align:center;
+  margin: 1rem;
+  border: 3px solid rgb(171, 183, 181); 
+  font-size: 1.5rem;
+}
+
+.message{
+  padding: 3rem;
+}
+  
+button{
+  background-color: rgba(211, 16, 30, 0.3);
+  border: none;
+  width: 100;
+  height: 10%;
+  font-size: 150%;
+  margin-bottom: 10%;
+}
+
+.other-contact-box{
+display: flex;
+flex-flow: column;
+}
+
 @media only screen and (max-width: 1024px) {
 
   .resume-head {
@@ -232,6 +280,8 @@ margin: 1rem;
     width: 100%;
     margin: .5rem;
     }
+
+    
 }
 
 

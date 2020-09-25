@@ -1,7 +1,5 @@
 import React from 'react'
-import { Link, Route, withRouter } from 'react-router-dom'
-import Main from '../shared/Main'
-
+import { Link, withRouter } from 'react-router-dom'
 
 function Home() {
 

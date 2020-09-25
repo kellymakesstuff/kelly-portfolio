@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link, Route, withRouter } from 'react-router-dom'
+import { Route, withRouter } from 'react-router-dom'
 import Projects from '../screens/Projects'
 import Resume from '../screens/Resume'
-import Aboutme from '../screens/Aboutme'
+import Contact from './Contact'
 
 function Screens() {
   return <>
@@ -15,8 +15,8 @@ function Screens() {
       <Resume />
     </Route>
 
-    <Route path="/main/aboutme">
-      <Aboutme />
+    <Route path="/main/contact">
+      <Contact />
     </Route>
 
 

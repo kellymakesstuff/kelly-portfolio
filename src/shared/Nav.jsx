@@ -1,19 +1,19 @@
 import React, { useState } from 'react'
-import { Link, Route, withRouter } from 'react-router-dom'
+import { Link, withRouter } from 'react-router-dom'
 
 function Nav() {
 
   let [headerShift, setHeaderShift] = useState({
     projects: false,
     resume: false,
-    about: false
+    contact: false
   })
 
   let clickProjects = () => {
     setHeaderShift({
       projects: true,
       resume: false,
-      about: false
+      contact: false
     })
     console.log("headerShift", headerShift)
   }
@@ -22,16 +22,16 @@ function Nav() {
     setHeaderShift({
       projects: false,
       resume: true,
-      about: false
+      contact: false
     })
     console.log("headerShift", headerShift)
   }
 
-  let clickAbout = () => {
+  let clickContact = () => {
     setHeaderShift({
       projects: false,
       resume: false,
-      about: true
+      contact: true
     })
     console.log("headerShift", headerShift)
   }
@@ -52,11 +52,11 @@ function Nav() {
     }
   }
 
-  let rendAbout = () => {
-    if (headerShift.about === true) {
-      return <h1 className="sect-title" >About Me</h1>
+  let rendContact = () => {
+    if (headerShift.contact === true) {
+      return <h1 className="sect-title" >Contact</h1>
     } else {
-      return <h2>About Me</h2>
+      return <h2>Contact</h2>
     }
   }
 
@@ -72,8 +72,8 @@ function Nav() {
         {rendResume()}
       </Link>
 
-      <Link to="/main/aboutme" onClick={() => clickAbout()}>
-        {rendAbout()}
+      <Link to="/main/contact" onClick={() => clickContact()}>
+        {rendContact()}
       </Link>
     </div>
   </>
