@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import SingleProject from '../shared/SingleProject'
 import { withRouter } from 'react-router-dom'
 
