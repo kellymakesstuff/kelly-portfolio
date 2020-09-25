@@ -1,13 +1,11 @@
 import React, { useState } from 'react'
-import projectData from './projectData'
 import SingleProject from '../shared/SingleProject'
 import { withRouter } from 'react-router-dom'
 
-function Projects() {
-  let [projects, setProjects] = useState(projectData)
+function Projects({ projects }, { projDetail }) {
 
-  console.log(projectData)
   console.log(projects)
+  console.log(projDetail)
   return <>
 
     <div className="black-box col-10">

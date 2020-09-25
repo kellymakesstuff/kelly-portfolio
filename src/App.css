@@ -63,8 +63,8 @@ justify-content: center;
 }
 
 .proj-img {
-  height: 37%;
-  width: 37%;
+  height: 43%;
+  width: 43%;
 
 }
 
@@ -264,9 +264,28 @@ display: flex;
 flex-flow: column;
 }
 
+.live-buttons{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
 
+.live-buttons a{
+  background-color:  rgba(211, 16, 30, 0.3);
+  border: .1rem solid black;
+  display: flex;
+padding: .5rem;
+margin: .3rem;
+align-items: center;
+justify-content: center;
+width: 4rem;
+font-size: 1rem;
+}
 
-
+.main-page {
+  text-align: center;
+  padding: 5rem;
+}
 @media only screen and (max-width: 1024px) {
 
   .resume-head {
@@ -359,8 +378,8 @@ flex-flow: column;
 
 @media only screen and (max-width: 1500px) {
   .proj-img {
-    height: 50%;
-    width: 50%;
+    height: 90%;
+    width: 90%;
   }
 }
 
