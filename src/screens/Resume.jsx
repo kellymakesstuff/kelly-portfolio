@@ -57,13 +57,13 @@ function Resume() {
       <div className="tech-stack-box">
 
 
-        <img className="size-64" src={uk} alt="English"></img>
-        <img className="size-80" src={japan} alt="Japanese"></img>
-        <img className="size-64" src={france} alt="French"></img>
-        <img className="size-80" src={china} alt="Chinese (Mandarin)"></img>
-        <img className="size-80" src={korea} alt="Korean"></img>
-        <img className="size-64" src={spain} alt="Spanish"></img>
-        <img className="size-64" src={egypt} alt="Egyptian Arabic"></img>
+        <img className="size-64" src={uk} alt="English" />
+        <img className="size-80" src={japan} alt="Japanese" />
+        <img className="size-64" src={france} alt="French" />
+        <img className="size-80" src={china} alt="Chinese (Mandarin)" />
+        <img className="size-80" src={korea} alt="Korean" />
+        <img className="size-64" src={spain} alt="Spanish" />
+        <img className="size-64" src={egypt} alt="Egyptian Arabic" />
       </div>
     </div>
   </>
