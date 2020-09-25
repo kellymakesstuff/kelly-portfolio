@@ -104,7 +104,8 @@ a:hover {
 } 
 
 .home-msg-text {
-  margin: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .sect-title {
@@ -287,6 +288,7 @@ font-size: 1rem;
   padding: 5rem;
 }
 @media only screen and (max-width: 1024px) {
+
 
   .resume-head {
     margin: 1.5rem;
