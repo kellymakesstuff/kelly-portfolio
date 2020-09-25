@@ -28,6 +28,7 @@ function Screens() {
     <Route path="/main" exact>
       <div className="main-page">
         <h2>Navigate above to see some of my latest work!</h2>
+        <h3>This page is a work-in-progress, so come back soon to see automation projects,  code demos, and more!</h3>
 
       </div>
     </Route>
