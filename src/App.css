@@ -65,7 +65,9 @@ justify-content: center;
 .proj-img {
   height: 37%;
   width: 37%;
+
 }
+
 
 .main-box {
   display:flex;
@@ -261,6 +263,9 @@ button{
 display: flex;
 flex-flow: column;
 }
+
+
+
 
 @media only screen and (max-width: 1024px) {
 
