@@ -18,7 +18,7 @@ function Home() {
 
 
       <Link to="/main">
-        <h2>COME ON IN!</h2>
+        <h2>COME ON IN! </h2>
       </Link>
     </div>
 
