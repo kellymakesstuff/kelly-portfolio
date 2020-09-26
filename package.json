@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "surge-deploy": "npm run build && mv build/index.html build/200.html && surge build",
-    "net-deploy": "npm run build && mv build/index.html build/200.html"
+    "net-deploy": "react-scripts build && echo '/* /index.html 200' | cat >build/_redirects"
   },
   "eslintConfig": {
     "extends": "react-app"
